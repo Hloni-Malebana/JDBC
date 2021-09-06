@@ -42,7 +42,10 @@ public class jdbcPractice {
 		 */
 		
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Student","root","root");
-		System.out.println("Step 2 : Now that the jvm has connected to the sql server using port 3306 and the password and username root root,the jvm will read information from the Student databse.");
+		System.out.println("Step 2 : Now that the jvm has connected to the sql server \n"
+				+ "using port 3306 and the password and username root root,\n"
+				+ "the jvm will read information from the Student database.");
+		
 
 		/* Instantiate a con object,that is a child of the Statement
 		 * class,then call the createStatement method.
