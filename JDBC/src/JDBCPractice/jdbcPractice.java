@@ -25,7 +25,7 @@ public class jdbcPractice {
 		 * mysql-connector-java-8.0.26.jar file.
 		 */
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		System.out.println("Step 1 :No that the driver has loaded,the jvm will attempt to connect to the sql database.");
+		System.out.println("Step 1 :Now that the driver has loaded,the jvm will attempt to connect to the sql database.");
 		/* Instantiate a Driver Manager object, a child of the 
 		 * Connection class,then call the getConnection method
 		 * which will establish the connection between this program
