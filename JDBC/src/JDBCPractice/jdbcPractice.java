@@ -49,7 +49,6 @@ public class jdbcPractice {
 
 		/* Instantiate a con object,that is a child of the Statement
 		 * class,then call the createStatement method.
-		 * 
 		 */
 
 		
