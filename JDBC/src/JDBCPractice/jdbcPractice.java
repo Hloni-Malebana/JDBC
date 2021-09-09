@@ -41,7 +41,7 @@ public class jdbcPractice {
 		 * 
 		 */
 		
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Student","root","nopassword");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Student","hloni","Hl0ni@1447");
 		
 		System.out.println("Step 2 : Now that the jvm has connected to the sql server \n"
 				+ "using port 3306 and the password and username root root,\n"
