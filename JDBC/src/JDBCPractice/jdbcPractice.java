@@ -21,7 +21,7 @@ public class jdbcPractice {
 
 		// TODO Auto-generated method stub
 		try {
-			System.out.println("Step 1 : Loading to the com.mysql.cj.jdbc.Driver driver so that the project has access to the sql tools");
+			System.out.println("Step 1 : Loading to the com.mysql.cj.jdbc.Driver driver.");
 		
 			/*
 			 * Load class called com.mysql.jdbc.Driver
